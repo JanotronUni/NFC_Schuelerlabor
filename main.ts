@@ -83,9 +83,8 @@ namespace NFC {
         }
     }
 
-    //% weight=70
-    //% blockId="detectedRFIDcard" block="Chip erkannt?"
-    export function detectedRFIDcard(): boolean {
+    
+     function sdetectedRFIDcard(): boolean {
         serial.setRxBufferSize(100)
         wakeup();
         let myBuffer: number[] = []
