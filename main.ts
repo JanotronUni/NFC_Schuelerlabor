@@ -84,7 +84,7 @@ namespace NFC {
     }
 
     
-     function sdetectedRFIDcard(): boolean {
+     function detectedRFIDcard(): boolean {
         serial.setRxBufferSize(100)
         wakeup();
         let myBuffer: number[] = []
